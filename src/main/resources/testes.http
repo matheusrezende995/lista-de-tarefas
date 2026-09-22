@@ -1,0 +1,9 @@
+### Criar uma nova tarefa
+POST http://localhost:8080/api/tarefas
+Content-Type: application/json
+
+{
+  "titulo": "Minha primeira tarefa",
+  "descricao": "Estudar a camada Controller e rotas da API",
+  "concluida": false
+}
