@@ -7,3 +7,9 @@ Content-Type: application/json
   "descricao": "Estudar a camada Controller e rotas da API",
   "concluida": false
 }
+
+### Buscar tarefa por ID
+GET http://localhost:8080/api/tarefas/2
+
+### Deletar tarefa por ID
+DELETE http://localhost:8080/api/tarefas/2
